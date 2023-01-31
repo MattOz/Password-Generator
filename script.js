@@ -37,11 +37,6 @@ var generatePassword = function() {
   userLower = userLower.toUpperCase();
   userNumeric = userNumeric.toUpperCase();
   userSpecial = userSpecial.toUpperCase();
-  console.log(userLength);
-  console.log(userUpper);
-  console.log(userLower);
-  console.log(userNumeric);
-  console.log(userSpecial);
 
   //if user answers no to all prompts, alert user to answer yes to at least one
   if (userUpper === "NO" && userLower === "NO" && userNumeric === "NO" && userSpecial === "NO") {
